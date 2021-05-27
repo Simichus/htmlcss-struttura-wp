@@ -1,0 +1,36 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* funzionalità */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* stile */
+
+header *{
+    margin: 30px auto;
+}
+
+.header-top{
+    height: 150px;
+    background-color: purple;
+}
+
+.header-bottom{
+    height: 500px;
+    background-color: goldenrod;
+}
+
