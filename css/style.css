@@ -17,6 +17,9 @@ body{
     display: table;
     clear: both;
 }
+.float-left{
+    float: left;
+}
 
 /* stile */
 
@@ -34,3 +37,34 @@ header *{
     background-color: goldenrod;
 }
 
+main{
+    background-color: rgb(21, 21, 139);
+}
+
+main *{
+    background-color: cadetblue;
+}
+
+.main-header{
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.main-container{
+    margin: 30px 0;
+    background-color: transparent;
+}
+
+.main-container *{
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.sidebar{
+    width: 25%;
+}
+
+.content{
+    width: calc(50% - 60px);
+    margin: 0 30px;
+}
